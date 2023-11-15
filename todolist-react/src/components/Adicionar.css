@@ -1,0 +1,73 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+div#AdicionarTarefasDiv {
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+    width: 30%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 15px;
+}
+div#AdicionarTarefasDiv input {
+    width: 77%;
+    height: 30px;
+    padding-left: 12px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: solid 1px black;
+}
+div#AdicionarTarefasDiv button {
+    width: 19%;
+    height: 32px;
+    border: solid 1px black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-left: 0px;
+}
+div#TarefasDiv {
+    background-color: white;
+    width: 40%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 15px;
+}
+h3 {
+    margin: 10px;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: block;
+    text-align: center;
+    margin: 5px 0;
+    padding: 5px;
+}
+li button {
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+    right: 5px;
+    width: 25%;
+    background-color: rgba(243, 141, 141, 0.863);
+    border: solid 1px black;
+}
+li p {
+    display: inline-block;
+    width: 65%;
+}
+li input{
+    width: 10%;
+    transform: translateX(-12px);
+}
+.marcado{
+    background-color: rgba(118, 255, 118, 0.534);
+    border-radius: 5px;
+}
